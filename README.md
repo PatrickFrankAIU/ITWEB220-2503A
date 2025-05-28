@@ -3,3 +3,9 @@
 # ITWEB220-2503A
 For students in ITWEB-220, Term 2503A. 
 Patrick Frank, Instructor
+
+git add .
+git commit -m "Completed Module ... exercise ..."
+
+git push origin main
+
