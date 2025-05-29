@@ -8,3 +8,4 @@ function calculateAgeInDays() {
   // Output to console
   console.log("You are approximately " + ageInDays + " days old.");
 }
+// comment from pat
