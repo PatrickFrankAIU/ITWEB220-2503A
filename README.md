@@ -7,5 +7,5 @@ Patrick Frank, Instructor
 git add .
 git commit -m "Module 2 Exercise"
 
-git push Module_2 main
+git push origin main
 
