@@ -5,7 +5,7 @@ For students in ITWEB-220, Term 2503A.
 Patrick Frank, Instructor
 
 git add .
-git commit -m "Module 2 Exercise"
+git commit -m "Module 3 Exercise"
 
 git push origin main
 
