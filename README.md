@@ -5,7 +5,7 @@ For students in ITWEB-220, Term 2503A.
 Patrick Frank, Instructor
 
 git add .
-git commit -m "Module 3"
+git commit -m "Module 3 PosandNeg"
 
 git push origin main
 
