@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arcade Guess Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cabinet">
+    <div class="crt-screen">
+      <h1 class="arcade-title"> GUESS THE NUMBER </h1>
+
+      <div class="screen">
+        <p id="message">Enter a number between 1 and 100</p>
+        <input type="number" id="guessInput" min="1" max="100">
+      </div>
+
+      <div class="stats">
+        <p>Attempts Left: <span id="triesLeft">10</span></p>
+        <p>Score: <span id="score">0</span></p>
+        <p>Best Score (Least Tries): <span id="best">-</span></p>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="arcade-button" onclick="submitGuess()">GUESS</button>
+      <button class="arcade-button" onclick="resetGame()">RESET</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
