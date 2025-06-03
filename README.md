@@ -5,7 +5,7 @@ For students in ITWEB-220, Term 2503A.
 Patrick Frank, Instructor
 
 git add .
-git commit -m "Module 3 PosandNeg"
+git commit -m "Module 3 escape the cave, JsQuiz, SpiritAnimal, DayofWeek"
 
 git push origin main
 

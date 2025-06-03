@@ -1,0 +1,64 @@
+body {
+  background: black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+#countdown {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#launchBtn,
+#relaunchBtn {
+  font-size: 1.5em;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+#launchBtn {
+  background-color: red;
+  color: white;
+}
+
+#launchBtn:hover {
+  background-color: darkred;
+}
+
+#relaunchBtn {
+  background-color: gray;
+  color: white;
+}
+
+#relaunchBtn:hover {
+  background-color: darkgray;
+}
+
+#rocket {
+  font-size: 4em;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) rotate(-45deg); /* Lean the rocket */
+}
+
+/* Launch animation */
+@keyframes rocketLaunch {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 120%;
+  }
+}
+
+.launching {
+  animation: rocketLaunch 3s linear forwards;
+}
