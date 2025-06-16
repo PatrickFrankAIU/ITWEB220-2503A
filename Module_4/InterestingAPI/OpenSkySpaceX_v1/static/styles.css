@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0b1d2a;
+  color: #fff;
+}
+
+#header {
+  padding: 10px;
+  text-align: center;
+}
+
+#launchInfo {
+  margin: 10px 0;
+}
+
+select {
+  padding: 6px;
+  font-size: 16px;
+}
+
+#details {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #a9d6ff;
+}
+
+#map {
+  height: 85vh;
+  width: 100%;
+}

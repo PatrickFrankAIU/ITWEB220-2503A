@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flight Paths on Launch Day</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <div id="header">
+    <h1>Flights Over Gulf/Caribbean During SpaceX Launch</h1>
+    <div id="launchInfo">
+      <label for="launchSelect">Select Launch:</label>
+      <select id="launchSelect"></select>
+      <label for="airportSelect">Select Airport:</label>
+      <select id="airportSelect"></select>
+      <div id="details"></div>
+    </div>
+  </div>
+
+  <div id="map"></div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
